@@ -1,0 +1,88 @@
+<html>
+    <head> 
+	  <link rel="stylesheet" href="style.css">
+      <title> login.html</title>
+    </head>
+
+
+    <body>
+		
+		 <div id="topnav">
+
+           <a href="register.html">Register</a>
+           <a class="active" href="login.html"> Login</a> 
+           <a href="contactpage.html"> Contact</a>
+		   
+         </div>
+		 
+		   <br><br>
+		
+            
+           <center>
+		
+		<div id="No01">
+
+       
+           <center><img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"></center>
+           <center>
+           <h2> Login to facebook</h2>
+		   
+		   
+         <form> 
+          <label></label><br>
+          <input type="email"placeholder="Email" id="Email">
+		  <br>
+          <label></label><br>
+          <input type="password" placeholder="Password"  id="password" ><br><br>
+          <br>
+                
+         </form>
+		 
+		 <button onclick="changeName();">login</button>
+		 
+		 
+          <br>
+              
+           </center>
+		   
+		   
+		   <p id="sl"></p>
+		   <br>
+		   <div style="display:flex">
+			<div>
+				<p align="left" id="tag">Email:</p>
+		   </div>
+		   <div>
+				<p id="email"></p>
+		   </div>
+		   </div>
+		   
+		   <div style="display:flex">
+			<div>
+				<p align="left" id="tag">Password:</p>
+		   </div>
+		   <div>
+				<p id="tag_2"></p>
+		   </div>
+		   </div>
+		 
+        </div>
+		   </center>
+		   
+		   
+		   
+		   <script> 
+		   function changeName(){
+		   
+				document.getElementById("sl").innerHTML="Login Successful!";
+				
+				document.getElementById("email").innerHTML = Email.value ; 
+				document.getElementById("tag_2").innerHTML=password.value;
+				
+				
+			}
+			</script>
+    </body>
+        
+        
+</html>
